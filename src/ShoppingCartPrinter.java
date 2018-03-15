@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * A class to test ItemToPurchase objects
+ * @author Will Smith
+ * @version 1.0
+ */
 public class ShoppingCartPrinter {
     public static void main(String arg[]){
 
@@ -10,6 +15,9 @@ public class ShoppingCartPrinter {
         String name;
         int price, quantity;
 
+        /**
+         * Reading in and assigning values for Item 1
+         */
         System.out.println("Item 1");
         System.out.println("Enter the item name:");
         name = scanner.nextLine();
@@ -24,7 +32,9 @@ public class ShoppingCartPrinter {
 
         scanner.nextLine();
 
-
+/**
+ * Reading in and assigning values for Item 2
+ */
         System.out.println();
         System.out.println("Item 2");
         System.out.println("Enter the item name:");
@@ -38,6 +48,10 @@ public class ShoppingCartPrinter {
         itemTwo.setPrice(price);
         itemTwo.setQuantity(quantity);
 
+
+        /**
+         * Output results and test
+         */
         System.out.println();
         System.out.println("TOTAL COST");
         System.out.println(itemOne.getName()+" "+itemOne.getQuantity()+" @ $"+itemOne.getPrice()+" = $"+(itemOne.getPrice()*itemOne.getQuantity()));
