@@ -6,6 +6,7 @@ public class ShapeTester {
 
     //TODO Insert your code here
 
+       // Shape myShape = new Shape();
         Shape myCircle = new Circle(4);
         Shape myTriangle = new Triangle(3,8);
         Shape myRectangle = new Rectangle(10,8);
@@ -18,7 +19,10 @@ public class ShapeTester {
         System.out.println("myTriangle = " + myTriangle+" area = "+myTriangle.calcArea());
 */
 
-        ArrayList<Shape> myShapes = new ArrayList<Shape>();
+
+        //System.out.println("myShape are = "+myShape.calcArea());
+
+       ArrayList<Shape> myShapes = new ArrayList<Shape>();
 
         myShapes.add(myCircle);
         myShapes.add(myRectangle);

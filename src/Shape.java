@@ -1,6 +1,4 @@
-public class Shape {
+public interface Shape {
 
-    public double calcArea(){
-        return 0;
-    }
+    double calcArea();
 }

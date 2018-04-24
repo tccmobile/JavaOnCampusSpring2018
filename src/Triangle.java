@@ -1,4 +1,4 @@
-public class Triangle extends Shape{
+public class Triangle implements Shape{
 
     private int base;
     private int height;
